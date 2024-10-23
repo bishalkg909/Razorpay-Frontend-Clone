@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 <body class="overflow-x-hidden">
     <!-- Navigation Menu Starts -->
@@ -103,7 +104,7 @@
         </div>
     </section>
 
-    <!-- Feature Section -->
+    <!-- Feature Section 1 -->
     <section class="relative mt-[110px] overflow-hidden">
 
         <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167"
@@ -183,10 +184,11 @@
             <!-- feature grid -->
             <div class="w-full grid grid-cols-3 gap-4 mt-10">
                 <!-- Card 1 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer group">
-                    <img src="./images/payment-link-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-blue-300">
+                <div class="w-full min-h-[15rem] relative cursor-pointer group ">
+                    <!-- corner image -->
+                    <img src="./images/payment-link-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
                     <!-- box shape using svg tag-->
-                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.15">
+                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 group-hover:drop-shadow-xl group-hover:stroke-none" style="stroke-opacity: 0.15">
                         <path d="m 0 6 
                         a 6 6 0 0 1 6 -6 
                         h 250.32501220703125 
@@ -200,6 +202,8 @@
                         z" fill="#fff">
                         </path>
                     </svg>
+                    <!-- hover image -->
+                    <img src="./images/features-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
                     <!-- box content -->
                     <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
@@ -223,10 +227,12 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
-                    <img src="./images/payment-pages-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200">
+                <div class="w-full min-h-[15rem] relative cursor-pointer group">
+                    <img src="./images/payment-pages-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
+                    <!-- hover image -->
+                    <img src="./images/features-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
                     <!-- box shape using svg tag-->
-                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.15">
+                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 group-hover:drop-shadow-xl group-hover:stroke-none" style="stroke-opacity: 0.15">
                         <path d="m 0 6 
                         a 6 6 0 0 1 6 -6 
                         h 250.32501220703125 
@@ -263,10 +269,10 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
-                    <img src="./images/payment-button.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200">
+                <div class="w-full min-h-[15rem] relative cursor-pointer group">
+                    <img src="./images/payment-button.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
                     <!-- box shape using svg tag-->
-                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.15">
+                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 group-hover:drop-shadow-xl group-hover:stroke-none" style="stroke-opacity: 0.15">
                         <path d="m 0 6 
                         a 6 6 0 0 1 6 -6 
                         h 250.32501220703125 
@@ -280,6 +286,8 @@
                         z" fill="#fff">
                         </path>
                     </svg>
+                    <!-- hover image -->
+                    <img src="./images/features-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
                     <!-- box content -->
                     <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
@@ -303,10 +311,10 @@
                 </div>
 
                 <!-- Card 4 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
-                    <img src="./images/subscriptions-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200">
+                <div class="w-full min-h-[15rem] relative cursor-pointer group">
+                    <img src="./images/subscriptions-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
                     <!-- box shape using svg tag-->
-                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.15">
+                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 group-hover:drop-shadow-xl group-hover:stroke-none" style="stroke-opacity: 0.15">
                         <path d="m 0 6 
                         a 6 6 0 0 1 6 -6 
                         h 250.32501220703125 
@@ -320,6 +328,8 @@
                         z" fill="#fff">
                         </path>
                     </svg>
+                    <!-- hover image -->
+                    <img src="./images/features-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
                     <!-- box content -->
                     <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
@@ -343,10 +353,12 @@
                 </div>
 
                 <!-- Card 5 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
-                    <img src="./images/route-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200">
+                <div class="w-full min-h-[15rem] relative cursor-pointer group">
+                    <img src="./images/route-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
+                    <!-- hover image -->
+                    <img src="./images/features-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
                     <!-- box shape using svg tag-->
-                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.15">
+                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 group-hover:drop-shadow-xl group-hover:stroke-none" style="stroke-opacity: 0.15">
                         <path d="m 0 6 
                         a 6 6 0 0 1 6 -6 
                         h 250.32501220703125 
@@ -383,10 +395,12 @@
                 </div>
 
                 <!-- Card 6 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
-                    <img src="./images/smart-collect-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200">
+                <div class="w-full min-h-[15rem] relative cursor-pointer group">
+                    <img src="./images/smart-collect-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
+                    <!-- hover image -->
+                    <img src="./images/features-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
                     <!-- box shape using svg tag-->
-                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.15">
+                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 group-hover:drop-shadow-xl group-hover:stroke-none" style="stroke-opacity: 0.15">
                         <path d="m 0 6 
                         a 6 6 0 0 1 6 -6 
                         h 250.32501220703125 
@@ -429,6 +443,242 @@
         
 
     </section>
+
+    <!-- Feature section 2 -->
+     <section class="bg-[url(./images/feature-section-2BG.svg)] bg-cover pt-[16rem] pb-[350px] mt-24">
+        <!-- container -->
+        <div class="w-10/12 max-w-[1080px] pb-[100px] mx-auto relative pt-4">
+
+            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold text-white">
+                Explore Razorpay Business Banking
+            </h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-20"></div>
+
+            <!-- Main Features Box -->
+            <div class="w-full min-h-[440px] flex flex-col relative">
+                <img src="./images/x-flame-1.png" loading="lazy"
+                class="absolute -top-[142px] -left-[140px] w-[200px]">
+
+                <img src="./images/x-flame-2.png" loading="lazy"
+                class="absolute top-[150px] -right-[180px] w-[270px]">
+
+                <!-- content box -->
+                <div class="relative w-full bg-[#181c2e] p-10 py-12 border border-slate-700 rounded-md z-20">
+                    <!-- left side -->
+                    <div class="flex flex-col justify-between items-start h-full w-full gap-12 z-20">
+                        <h3 class="font-mullish text-[28px] text-white font-bold leading-10 max-w-[500px]">
+                            Manage your company's finances with
+                            <img src="./images/razorpayX.svg" loading="lazy" width="168px" height="32px" class="inline">
+                            <span class="text-greenLight">Business Banking</span>
+                        </h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-center space-x-2 font-mullish text-white">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>
+                                    Open a fully digital current account
+                                </span>
+                            </li>
+                            <li class="flex items-center space-x-2 font-mullish text-white">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>
+                                    Automate payables & compliment payments
+                                </span>
+                            </li>
+                            <li class="flex items-center space-x-2 font-mullish text-white">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>
+                                    Simplify and track spends with Corporate cards
+                                </span>
+                            </li>
+                            <li class="flex items-center space-x-2 font-mullish text-white">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>
+                                    View financial insights at a glance
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="flex w-full items-center space-x-4">
+                            <button class="relative bg-lightBlue flex items-center justify-start text-white py-[14px] px-[18px] pr-[90px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+                                Sign Up
+                                <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex items-center justify-center">
+                                    <!-- arrow -->
+                                    <svg viewBox="0 0 24 24" focusable="false" class="w-[20px] h-[20px] -skew-x-[20deg]">
+                                        <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                                      </svg>
+                                </div>
+                            </button>
+                            <!-- link -->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" class="font-mullish text-lightBlue500 font-bold group-hover:text-lightBlue transition-all duration-200 ">
+                                    Know More
+                                </a>
+                                <i data-feather="chevron-right" class="w-5 h-5 text-lightBlue500 group-hover:text-lightBlue transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right side image -->
+                    <img src="./images/buisness-banking.png" loading="lazy" class="absolute max-w-[600px] right-0 bottom-0">
+                </div>
+
+                <!-- cardbox -->
+                <div class="grid grid-cols-3 w-full gap-4 my-14">
+                    <!-- box-1 -->
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group ">
+                        <!-- corner image -->
+                        <img src="./images/payment-link-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
+                        <!-- box shape using svg tag-->
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#fff] h-full w-full absolute z-[90] featureCardSVG transition-all duration-100 group-hover:shadow-2xl group-hover:stroke-none" style="stroke-opacity: 0.15">
+                            <path d="m 0 6 
+                            a 6 6 0 0 1 6 -6 
+                            h 250.32501220703125 
+                            a 16 16 0 0 1 11 5 
+                            l 77 77 
+                            a 16 16 0 0 1 5 11 
+                            v 126 
+                            a 6 6 0 0 1 -6 6 
+                            h -337.32501220703125 
+                            a 6 6 0 0 1 -6 -6 
+                            z" fill="#181c2e">
+                            </path>
+                        </svg>
+                        <!-- hover image -->
+                        <img src="./images/features2-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
+                        <!-- box content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!-- text-part -->
+                            <div>
+                                <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.37rem]">
+                                    Current Account
+                                </h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                    Current accounts for fast-growing businesses, supported by the best-in-class technology
+                                </p>
+                            </div>
+    
+                            <!-- hyperlink -->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">
+                                    Know More
+                                </a>
+                                <i data-feather="chevron-right" class="w-5 h-5 text-lightBlue500 transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- box-2 -->
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group ">
+                        <!-- corner image -->
+                        <img src="./images/current-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
+                        <!-- box shape using svg tag-->
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#fff] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 group-hover:shadow-2xl group-hover:stroke-none" style="stroke-opacity: 0.15">
+                            <path d="m 0 6 
+                            a 6 6 0 0 1 6 -6 
+                            h 250.32501220703125 
+                            a 16 16 0 0 1 11 5 
+                            l 77 77 
+                            a 16 16 0 0 1 5 11 
+                            v 126 
+                            a 6 6 0 0 1 -6 6 
+                            h -337.32501220703125 
+                            a 6 6 0 0 1 -6 -6 
+                            z" fill="#181c2e">
+                            </path>
+                        </svg>
+                        <!-- hover image -->
+                        <img src="./images/features2-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
+                        <!-- box content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!-- text-part -->
+                            <div>
+                                <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.37rem]">
+                                    Capital & Credit
+                                </h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                    Instant additional cash and corporate cards designed for growing businesses
+                                </p>
+                            </div>
+    
+                            <!-- hyperlink -->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">
+                                    Know More
+                                </a>
+                                <i data-feather="chevron-right" class="w-5 h-5 text-lightBlue500 transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- box-3 -->
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group ">
+                        <!-- corner image -->
+                        <img src="./images/payouts-icon.svg" class="bg-lightBlue absolute right-3 top-3 rounded-full w-12 h-12 z-[8] transition-all duration-200 group-hover:bg-lightBlue500">
+                        <!-- box shape using svg tag-->
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#fff] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 group-hover:shadow-2xl group-hover:stroke-none" style="stroke-opacity: 0.15">
+                            <path d="m 0 6 
+                            a 6 6 0 0 1 6 -6 
+                            h 250.32501220703125 
+                            a 16 16 0 0 1 11 5 
+                            l 77 77 
+                            a 16 16 0 0 1 5 11 
+                            v 126 
+                            a 6 6 0 0 1 -6 6 
+                            h -337.32501220703125 
+                            a 6 6 0 0 1 -6 -6 
+                            z" fill="#181c2e">
+                            </path>
+                        </svg>
+                        <!-- hover image -->
+                        <img src="./images/features2-wave.svg" class="absolute z-[100] right-0 bottom-3 hidden group-hover:block">
+                        <!-- box content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!-- text-part -->
+                            <div>
+                                <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.37rem]">
+                                    Payouts
+                                </h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                    Make simple, reliable & secure payouts to bank accounts, UPI IDs or wallets
+                                </p>
+                            </div>
+    
+                            <!-- hyperlink -->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">
+                                    Know More
+                                </a>
+                                <i data-feather="chevron-right" class="w-5 h-5 text-lightBlue500 transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+
+                <!-- demobox -->
+                <div class="w-full flex items-center justify-between border border-slate-700 mb-24 gap-y-6 p-10 relative rounded-md">
+
+                    <p class="font-mullish text-white text-xl">
+                        Check out the live demo to learn how RazorpayX works.
+                        <span class="font-bold">
+                            No sign-up required!
+                        </span>
+                    </p>
+
+                    <button class="relative bg-lightBlue flex items-center justify-start text-white py-[14px] px-[18px] pr-[90px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+                        Check out the demo
+                        <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex items-center justify-center">
+                            <!-- arrow -->
+                            <svg viewBox="0 0 24 24" focusable="false" class="w-[20px] h-[20px] -skew-x-[20deg]">
+                                <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                              </svg>
+                        </div>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+     </section>
 
     <script>
         feather.replace()
