@@ -1,5 +1,7 @@
 # Razorpay-Frontend-Clone
 
+Used html , tailwind css to clone the page of RazorPay and it is also responsive.
+
 To use the Feather Library:
 1. install feather library : npm i feather
 
